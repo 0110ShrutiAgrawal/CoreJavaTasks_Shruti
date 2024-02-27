@@ -7,6 +7,7 @@ The arrays folder contains exercises related to the arrays topic.
 The exceptions folder contains exercises related to exception handling.
 The pojo folder contains an example of a POJO class.
 The accountumltask folder contains the class files for the Bank Application UML Task given separately as a diagram.
+The collections folder contains all codes for collections in java.
 
 All the files have been formatted properly, commented, and include the question and generated author comment at the beginning as instructed.
 
