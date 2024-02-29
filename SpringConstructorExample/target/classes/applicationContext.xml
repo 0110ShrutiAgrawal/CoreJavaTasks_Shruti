@@ -1,0 +1,21 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="addition" class="com.edu.spring.Addition">
+		<constructor-arg value="20" />
+		<constructor-arg value="10" />
+	</bean>
+
+	<bean id="subtraction" class="com.edu.spring.Subtraction">
+		<constructor-arg value="15" />
+		<constructor-arg value="10" />
+	</bean>
+
+	<bean id="customer" class="com.edu.setter.Customer">
+		<property name="custName" value="Shruti"></property>
+		<property name="customerId" value="2002"></property>
+	</bean>
+
+</beans>

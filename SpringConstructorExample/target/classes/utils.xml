@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean id="ls" class="com.edu.spring.ConstListExample">
+		<constructor-arg value="koLaparthi" />
+		<constructor-arg>
+			<list>
+				<value>Shruti</value>
+				<value>Agrawal</value>
+				<value>Java</value>
+				<value>Spring</value>
+				<value>Training</value>
+			</list>
+		</constructor-arg>
+	</bean>
+
+	<bean id="mp" class="com.edu.spring.MapSpring">
+		<constructor-arg value="kolaparthi" />
+		<constructor-arg>
+			<map>
+				<entry key="1" value="srini" />
+				<entry key="2" value="Laptop" />
+				<entry key="3" value="Lenovo" />
+			</map>
+		</constructor-arg>
+	</bean>
+
+	<bean id="set" class="com.edu.spring.SetSpring">
+		<constructor-arg value="Shruti"></constructor-arg>
+		<constructor-arg>
+			<set>
+				<value>Shruti1</value>
+				<value>Shruti22</value>
+				<value>Shruti333</value>
+
+			</set>
+		</constructor-arg>
+	</bean>
+
+	<bean id="setsetter" class="com.edu.spring.SetSetter">
+		<property name="fullname" value="Shruti"></property>
+		<property name="ls">
+			<set>
+				<value>setsetter1</value>
+				<value>setsetter2</value>
+				<value>setsetter3</value>
+
+			</set>
+		</property>
+	</bean>
+
+	<bean id="mapsetter" class="com.edu.spring.MapSetter">
+		<property name="fullname" value="Shruti"></property>
+		<property name="ls">
+			<map>
+				<entry key="1" value="mapsetter"></entry>
+				<entry key="2" value="mapsetter2"></entry>
+				<entry key="3" value="mapsetter3"></entry>
+			</map>
+
+		</property>
+	</bean>
+</beans>
