@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.jdbc.bank.AbcdBank.AppTest" time="0.004" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\jre\bin"/>
+    <property name="java.vm.version" value="25.302-b08"/>
+    <property name="java.vm.vendor" value="Red Hat, Inc."/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\workspace_maven\AbcdBank"/>
+    <property name="java.vendor.url" value="https://developers.redhat.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\workspace_maven\AbcdBank"/>
+    <property name="java.runtime.version" value="1.8.0_302-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\91959\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\workspace_maven\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf43537782583153657.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64/java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64/bin/../jre/bin/server;C:/Openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64/java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64/bin/../jre/bin;C:/Openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64/java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64/bin/../jre/lib/amd64;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\91959\Downloads\dartsdk-windows-x64-release\dart-sdk\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\91959\.cargo\bin;C:\Openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\bin;C:\Program Files\nodejs\;C:\apache-maven-3.9.4-bin\apache-maven-3.9.4\bin;C:\Users\91959\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\91959\AppData\Local\Programs\Python\Python311\;C:\Users\91959\.cargo\bin;C:\Users\91959\AppData\Local\Microsoft\WindowsApps;C:\Users\91959\Desktop\Microsoft VS Code\bin;C:\Users\91959\Downloads\flutter_windows_3.3.10-stable\flutter\bin;C:\Users\91959\.dotnet\tools;C:\Users\91959\Downloads\libindy_1.16.0\lib;C:\Users\91959\Downloads\ngrok-v3-stable-windows-amd64;C:\Users\91959\.cargo\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2023.1.2\bin;;C:\Users\91959\AppData\Roaming\npm;;C:\eclipse-jee-neon-3-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\91959"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="91959"/>
+    <property name="java.class.path" value="/C:/eclipse-jee-neon-3-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_302"/>
+    <property name="java.ext.dirs" value="C:\Openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\jre\lib\resources.jar;C:\Openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\jre\lib\rt.jar;C:\Openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\jre\lib\sunrsasign.jar;C:\Openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\jre\lib\jsse.jar;C:\Openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\jre\lib\jce.jar;C:\Openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\jre\lib\charsets.jar;C:\Openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\jre\lib\jfr.jar;C:\Openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.302-1.b08.dev.redhat.windows.x86_64\jre\classes"/>
+    <property name="java.vendor" value="Red Hat, Inc."/>
+    <property name="maven.home" value="C:\workspace_maven\AbcdBank\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="https://bugzilla.redhat.com/enter_bug.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.jdbc.bank.AbcdBank.AppTest" name="testApp" time="0.004"/>
+</testsuite>
